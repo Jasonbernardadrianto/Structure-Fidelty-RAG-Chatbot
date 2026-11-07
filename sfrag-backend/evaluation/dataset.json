@@ -1,0 +1,37 @@
+[
+  {
+    "id": "SKENARIO_1",
+    "topic": "Batas Beban SKS KRS & Toleransi +1 SKS",
+    "query": "Berapa batas maksimal pengambilan SKS jika IPS saya 3.25, dan apakah boleh mengambil 1 SKS lebih jika tidak ada mata kuliah yang pas?",
+    "gold_keywords": ["24 SKS", "toleransi", "76"],
+    "expected_clause": "BAB III > C. STANDAR PROSES PEMBELAJARAN (Hal 39 & 76)"
+  },
+  {
+    "id": "SKENARIO_2",
+    "topic": "Konsekuensi & Aturan Cekal Keuangan",
+    "query": "Bagaimana ketentuan pembayaran UKP dan UKV serta bagaimana jika mahasiswa mengalami kesulitan keuangan?",
+    "gold_keywords": ["penundaan", "surat permohonan", "ukp", "ukv"],
+    "expected_clause": "BAB VII > I. PENUNDAAN PEMBAYARAN DPP, UKP dan UKV (Hal 76 & 79)"
+  },
+  {
+    "id": "SKENARIO_3",
+    "topic": "Ketentuan Cuti Studi Sementara & Sanksi Cuti Tanpa Izin",
+    "query": "Berapa lama batas maksimal cuti studi dan apa sanksinya jika mahasiswa cuti tanpa izin selama 2 semester berturut-turut?",
+    "gold_keywords": ["cuti studi", "4 semester", "mengundurkan diri"],
+    "expected_clause": "BAB VII > H. CUTI STUDI SEMENTARA (Hal 78-79)"
+  },
+  {
+    "id": "SKENARIO_4",
+    "topic": "Syarat Yudisium & Predikat Kelulusan Dengan Pujian (Cum Laude)",
+    "query": "Apa syarat IPK dan ketentuan khusus untuk mendapatkan predikat kelulusan Dengan Pujian bagi mahasiswa S1?",
+    "gold_keywords": ["pujian", "3.50", "4 tahun"],
+    "expected_clause": "BAB III & V > Kriteria Predikat Kelulusan (Hal 39 & 53)"
+  },
+  {
+    "id": "SKENARIO_5",
+    "topic": "Persyaratan Mengambil Skripsi S1",
+    "query": "Apa saja syarat akademik untuk dapat mengambil mata kuliah Skripsi pada program studi S1?",
+    "gold_keywords": ["skripsi", "110 sks", "2.20"],
+    "expected_clause": "BAB IV > B. TUGAS AKHIR DAN UJIAN AKHIR (Hal 48-49 & 87)"
+  }
+]

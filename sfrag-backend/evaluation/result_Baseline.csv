@@ -1,0 +1,6 @@
+id,topic,rank,hit1,hit3,rr,recall
+SKENARIO_1,Batas Beban SKS KRS & Toleransi +1 SKS,1,1,1,1.0,1.0
+SKENARIO_2,Konsekuensi & Aturan Cekal Keuangan,1,1,1,1.0,1.0
+SKENARIO_3,Ketentuan Cuti Studi Sementara & Sanksi Cuti Tanpa Izin,1,1,1,1.0,1.0
+SKENARIO_4,Syarat Yudisium & Predikat Kelulusan Dengan Pujian (Cum Laude),1,1,1,1.0,1.0
+SKENARIO_5,Persyaratan Mengambil Skripsi S1,1,1,1,1.0,1.0

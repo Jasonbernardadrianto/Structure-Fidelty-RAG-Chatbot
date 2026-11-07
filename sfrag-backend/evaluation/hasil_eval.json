@@ -1,0 +1,207 @@
+[
+  {
+    "id": "SKENARIO_1",
+    "query": "Berapa batas maksimal pengambilan SKS jika IPS saya 3.25, dan apakah boleh mengambil 1 SKS lebih jika tidak ada mata kuliah yang pas?",
+    "expected_clause": "BAB III > C. STANDAR PROSES PEMBELAJARAN (Hal 39 & 76)",
+    "runs": [
+      {
+        "SF-RAG": {
+          "latency": 1.914,
+          "chunks": [
+            {
+              "breadcrumb": "BAB III: STANDAR PENDIDIKAN & PENILAIAN > Batas Beban Studi KRS Berdasarkan IPS Semester Sebelumnya (Hal. 39):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB III: STANDAR PENDIDIKAN & PENILAIAN > Batas Beban Studi KRS Berdasarkan IPS Semester Sebelumnya (Hal. 39):\n\n- IPS >= 3.00 : Beban studi maksimum 24 SKS\n- IPS 2.50 - 2.99 : Beban studi maksimum 21 SKS\n- IPS 2.00 - 2.49 : Beban studi maksimum 18 SKS\n- IPS 1.50 - 1.99 : Beban studi maksimum 15 SKS\n- IPS < 1.50 : Beban studi maksimum 12 SKS\n- **Kebijakan Khusus Toleransi +1 SKS (Hal. 76 butir 4):** Apabila dalam pengambilan beban SKS tidak ada yang pas sesuai batas SKS, mahasiswa diperkenankan mengambil 1 SKS lebih besar dari ketentuan (misal jatah 21 SKS boleh ambil 22 SKS), selama tidak melebihi batas absolut 24 SKS."
+            },
+            {
+              "breadcrumb": "BAB IV: SISTEM EVALUASI, UJIAN, TUGAS AKHIR & SKRIPSI > Syarat Skripsi S1 (Hal. 48-51, 87-88):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB IV: SISTEM EVALUASI, UJIAN, TUGAS AKHIR & SKRIPSI > Syarat Skripsi S1 (Hal. 48-51, 87-88):\n\n- Mahasiswa aktif semester berjalan.\n- Telah menyelesaikan minimal 110 SKS dengan IPK >= 2.20.\n- Nilai D maksimal 8 SKS dari 110 SKS.\n- Sedang menempuh atau telah lulus mata kuliah Metodologi Penelitian dan PPL/Kerja Praktek.\n- Telah menghadiri seminar hasil mahasiswa lain minimal 5 kali.\n- Waktu pelaksanaan bimbingan skripsi maksimum 2 semester sejak SK Pembimbing diterbitkan. Jika 4 bulan pertama belum bimbingan/ujian proposal, bimbingan dihentikan sementara.\n- Tahapan skripsi: Seminar Proposal (2 pembimbing + 1 penguji) -> Seminar Hasil (dihadiri minimal 10 mahasiswa) -> Ujian Pendadaran / Komprehensif (3 penguji)."
+            }
+          ],
+          "answer": "JAWABAN:\n\nBerdasarkan Pedoman Pendidikan STIKOM Yos Sudarso 2025, berikut adalah ketentuan terkait beban studi Anda:\n\n1. Berdasarkan BAB III: STANDAR PENDIDIKAN & PENILAIAN, halaman 39, mahasiswa dengan IPS >= 3.00 diperbolehkan mengambil beban studi maksimum 24 SKS.\n\n2. Terkait pertanyaan Anda mengenai penambahan 1 SKS, hal tersebut diperbolehkan sesuai dengan Kebijakan Khusus Toleransi pada halaman 76 butir 4. Jika dalam pengambilan beban SKS tidak ada mata kuliah yang pas sesuai batas yang ditentukan, Anda diperkenankan mengambil 1 SKS lebih besar dari ketentuan, selama tidak melebihi batas absolut 24 SKS.\n\nKarena batas maksimal Anda adalah 24 SKS, maka Anda dapat mengambil hingga 24 SKS sesuai dengan ketentuan batas absolut tersebut.",
+          "coverage": 1.0,
+          "forbidden_hits": []
+        },
+        "Baseline": {
+          "latency": 2.166,
+          "chunks": [
+            {
+              "breadcrumb": "-",
+              "text": "studi maksimum 18 SKS\n- IPS 1.50 - 1.99 : Beban studi maksimum 15 SKS\n- IPS < 1.50 : Beban studi maksimum 12 SKS\n- **Kebijakan Khusus Toleransi +1 SKS (Hal. 76 butir 4):** Apabila dalam pengambilan beban SKS tidak ada yang pas sesuai batas SKS, mahasiswa diperkenankan mengambil 1 SKS lebih besar dari ketentuan (misal jatah 21 SKS boleh ambil 22 SKS), selama tidak melebihi batas absolut 24 SKS.\n\n### Kriteria Predikat Kelulusan Mahasiswa (Hal. 39):\n- IPK >= 2.50 : Lulus\n- IPK 2.76 - 3.00 : Memuask"
+            },
+            {
+              "breadcrumb": "-",
+              "text": "rstruktur, 60 menit mandiri.\n- 1 SKS praktikum laboratorium: 4 jam kegiatan per minggu selama 1 semester.\n- Kuliah tatap muka sekurang-kurangnya 14 kali dalam satu semester di luar UTS dan UAS.\n- Beban belajar D3 minimal 108 SKS (tempuh 6 semester, maks 5 tahun). Beban belajar S1 minimal 144 SKS (tempuh 8 semester, maks 7 tahun).\n- Beban SKS Semester 1 dan 2 paling banyak 20 SKS. Semester 3 dan seterusnya paling banyak 24 SKS. Semester Antara paling banyak 9 SKS.\n\n### Skala Penilaian Nilai Mutu"
+            }
+          ],
+          "answer": "JAWABAN:\n\nBerdasarkan Buku Pedoman Pendidikan 2025, berikut adalah ketentuan mengenai beban studi Anda:\n\n1. Batas maksimal pengambilan SKS:\nBerdasarkan ketentuan beban SKS pada Bab Beban Belajar, mahasiswa dengan IPS 3.25 (yang berada di atas ambang batas IPS 1.99) diperbolehkan mengambil beban studi maksimum 24 SKS untuk semester 3 dan seterusnya.\n\n2. Kebijakan penambahan 1 SKS:\nYa, Anda diperbolehkan mengambil 1 SKS lebih besar dari ketentuan jika tidak ada mata kuliah yang pas, sesuai dengan Kebijakan Khusus Toleransi pada Halaman 76 butir 4. Namun, perlu diingat bahwa total pengambilan SKS tersebut tidak boleh melebihi batas absolut yaitu 24 SKS.\n\nKarena data akademik Anda saat ini tidak tersedia dalam sistem, mohon pastikan kembali posisi semester Anda saat ini untuk menyesuaikan dengan batas maksimal SKS yang berlaku (Semester 1-2 maksimal 20 SKS, Semester 3 ke atas maksimal 24 SKS). Jika Anda memerlukan bantuan lebih lanjut terkait KRS, silakan menghubungi BAAK.",
+          "coverage": 1.0,
+          "forbidden_hits": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "SKENARIO_2",
+    "query": "Bagaimana ketentuan pembayaran UKP dan UKV serta bagaimana jika mahasiswa mengalami kesulitan keuangan?",
+    "expected_clause": "BAB VII > I. PENUNDAAN PEMBAYARAN DPP, UKP dan UKV (Hal 76 & 79)",
+    "runs": [
+      {
+        "SF-RAG": {
+          "latency": 2.292,
+          "chunks": [
+            {
+              "breadcrumb": "BAB VII: SISTEM PENYELENGGARAAN PEMBELAJARAN > Penundaan Pembayaran Keuangan (Hal. 79):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB VII: SISTEM PENYELENGGARAAN PEMBELAJARAN > Penundaan Pembayaran Keuangan (Hal. 79):\n\n- Mahasiswa yang kesulitan biaya mengajukan Surat Permohonan Penundaan DPP, UKP, dan UKV kepada Ketua STIKOM Yos Sudarso melalui Wakil Ketua II.\n- Bila disetujui, BAAK akan melegalisasi surat agar akses KRS/herregistrasi dibuka.\n- Mahasiswa yang tidak herregistrasi berstatus nonaktif dan tidak boleh mengikuti ujian."
+            },
+            {
+              "breadcrumb": "BAB VII: SISTEM PENYELENGGARAAN PEMBELAJARAN > Cuti Studi Sementara (Hal. 78-79):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB VII: SISTEM PENYELENGGARAAN PEMBELAJARAN > Cuti Studi Sementara (Hal. 78-79):\n\n1. Mengajukan surat permohonan diketahui orang tua selambat-lambatnya bersamaan jadwal KRS.\n2. Maksimal cuti 2 kali, dengan akumulasi paling lama 4 semester (2 tahun).\n3. Selama cuti resmi, mahasiswa membayar UKP 50% dan bebas UKV. Masa cuti resmi tidak dihitung masa studi.\n4. Mahasiswa cuti tanpa izin: Wajib bayar UKP 100%, masa cuti dihitung masa studi, dan jatah SKS setelah aktif maksimal 12 SKS.\n5. Cuti tanpa izin selama 2 semester berturut-turut dinyatakan mengundurkan diri dan status mahasiswanya hilang/gugur."
+            }
+          ],
+          "answer": "JAWABAN:\n\nBerdasarkan Pedoman Pendidikan STIKOM Yos Sudarso 2025, berikut adalah ketentuan terkait pembayaran dan prosedur jika Anda mengalami kesulitan keuangan:\n\n1. Ketentuan Pembayaran saat Cuti Studi:\nJika Anda mengajukan cuti studi resmi sesuai prosedur, Anda diwajibkan membayar UKP sebesar 50% dan dibebaskan dari pembayaran UKV (Bab VII, Sub-bab Cuti Studi Sementara, Hal. 78-79).\n\n2. Ketentuan jika Mengalami Kesulitan Keuangan:\nJika Anda mengalami kesulitan biaya, Anda dapat menempuh langkah berikut sesuai dengan Bab VII, Sub-bab Penundaan Pembayaran Keuangan (Hal. 79):\na. Mengajukan Surat Permohonan Penundaan DPP, UKP, dan UKV kepada Ketua STIKOM Yos Sudarso melalui Wakil Ketua II.\nb. Jika permohonan disetujui, BAAK akan melegalisasi surat tersebut agar akses KRS atau herregistrasi Anda dibuka.\n\nPerlu diingat bahwa mahasiswa yang tidak melakukan herregistrasi akan berstatus nonaktif dan tidak diperbolehkan mengikuti ujian. Mohon segera berkoordinasi dengan pihak terkait agar status akademik Anda tetap terjaga. Jika Anda memerlukan informasi lebih lanjut mengenai prosedur pengajuan, silakan menghubungi bagian BAAK.",
+          "coverage": 0.6666666666666666,
+          "forbidden_hits": []
+        },
+        "Baseline": {
+          "latency": 1.999,
+          "chunks": [
+            {
+              "breadcrumb": "-",
+              "text": "iswa membayar UKP 50% dan bebas UKV. Masa cuti resmi tidak dihitung masa studi.\n4. Mahasiswa cuti tanpa izin: Wajib bayar UKP 100%, masa cuti dihitung masa studi, dan jatah SKS setelah aktif maksimal 12 SKS.\n5. Cuti tanpa izin selama 2 semester berturut-turut dinyatakan mengundurkan diri dan status mahasiswanya hilang/gugur.\n\n### Penundaan Pembayaran Keuangan (Hal. 79):\n- Mahasiswa yang kesulitan biaya mengajukan Surat Permohonan Penundaan DPP, UKP, dan UKV kepada Ketua STIKOM Yos Sudarso melalu"
+            },
+            {
+              "breadcrumb": "-",
+              "text": "A, lunas administrasi keuangan, kehadiran minimal 75% (11 dari 14 tatap muka), membawa Kartu Ujian fisik.\n- Ujian Susulan: Hanya untuk mahasiswa yang bertugas mewakili kampus (surat tugas resmi), sakit (surat keterangan dokter sah), atau tertimpa musibah keluarga kandung meninggal dunia.\n- Ujian Remidi: Diberikan untuk nilai di bawah C, diajukan langsung ke dosen sebelum KRS semester berikutnya.\n- Ujian Khusus: Diberikan bagi mahasiswa tahap akhir yang nilainya kurang untuk kelulusan atau mempun"
+            }
+          ],
+          "answer": "Berdasarkan Buku Pedoman Pendidikan 2025, berikut adalah ketentuan terkait pembayaran dan prosedur jika Anda mengalami kesulitan keuangan:\n\n1. Ketentuan Pembayaran UKP dan UKV:\n- Mahasiswa yang mengambil cuti resmi diwajibkan membayar UKP sebesar 50% dan dibebaskan dari biaya UKV.\n- Mahasiswa yang melakukan cuti tanpa izin wajib membayar UKP sebesar 100%. Selain itu, masa cuti tersebut akan dihitung sebagai masa studi dan jatah SKS setelah kembali aktif maksimal adalah 12 SKS.\n- Perlu diperhatikan bahwa cuti tanpa izin selama 2 semester berturut-turut akan mengakibatkan status mahasiswa dinyatakan mengundurkan diri atau gugur.\n\n2. Prosedur Kesulitan Keuangan:\n- Sesuai dengan Bab Penundaan Pembayaran Keuangan (Halaman 79), mahasiswa yang mengalami kesulitan biaya dapat mengajukan Surat Permohonan Penundaan DPP, UKP, dan UKV.\n- Surat permohonan tersebut ditujukan kepada Ketua STIKOM Yos Sudarso melalui bagian yang berwenang.\n\nMohon maaf, karena data akademik Anda tidak tersedia dalam sistem, saya tidak dapat memberikan informasi spesifik mengenai status keuangan Anda saat ini. Jika Anda memerlukan bantuan lebih lanjut terkait prosedur pengajuan penundaan, silakan menghubungi bagian BAAK atau bagian keuangan kampus.",
+          "coverage": 0.6666666666666666,
+          "forbidden_hits": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "SKENARIO_3",
+    "query": "Berapa lama batas maksimal cuti studi dan apa sanksinya jika mahasiswa cuti tanpa izin selama 2 semester berturut-turut?",
+    "expected_clause": "BAB VII > H. CUTI STUDI SEMENTARA (Hal 78-79)",
+    "runs": [
+      {
+        "SF-RAG": {
+          "latency": 2.734,
+          "chunks": [
+            {
+              "breadcrumb": "BAB VII: SISTEM PENYELENGGARAAN PEMBELAJARAN > Cuti Studi Sementara (Hal. 78-79):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB VII: SISTEM PENYELENGGARAAN PEMBELAJARAN > Cuti Studi Sementara (Hal. 78-79):\n\n1. Mengajukan surat permohonan diketahui orang tua selambat-lambatnya bersamaan jadwal KRS.\n2. Maksimal cuti 2 kali, dengan akumulasi paling lama 4 semester (2 tahun).\n3. Selama cuti resmi, mahasiswa membayar UKP 50% dan bebas UKV. Masa cuti resmi tidak dihitung masa studi.\n4. Mahasiswa cuti tanpa izin: Wajib bayar UKP 100%, masa cuti dihitung masa studi, dan jatah SKS setelah aktif maksimal 12 SKS.\n5. Cuti tanpa izin selama 2 semester berturut-turut dinyatakan mengundurkan diri dan status mahasiswanya hilang/gugur."
+            },
+            {
+              "breadcrumb": "BAB III: STANDAR PENDIDIKAN & PENILAIAN > Standar Beban Belajar:",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB III: STANDAR PENDIDIKAN & PENILAIAN > Standar Beban Belajar:\n\n- 1 SKS setara dengan 45 jam per semester.\n- 1 SKS kuliah tatap muka: 50 menit tatap muka terbimbing, 60 menit tugas terstruktur, 60 menit mandiri.\n- 1 SKS praktikum laboratorium: 4 jam kegiatan per minggu selama 1 semester.\n- Kuliah tatap muka sekurang-kurangnya 14 kali dalam satu semester di luar UTS dan UAS.\n- Beban belajar D3 minimal 108 SKS (tempuh 6 semester, maks 5 tahun). Beban belajar S1 minimal 144 SKS (tempuh 8 semester, maks 7 tahun).\n- Beban SKS Semester 1 dan 2 paling banyak 20 SKS. Semester 3 dan seterusnya paling banyak 24 SKS. Semester Antara paling banyak 9 SKS."
+            }
+          ],
+          "answer": "Berdasarkan Pedoman Pendidikan STIKOM Yos Sudarso 2025, berikut adalah jawaban atas pertanyaan Anda:\n\n1. Batas maksimal cuti studi adalah sebanyak 2 kali dengan akumulasi durasi paling lama 4 semester atau 2 tahun (BAB VII: SISTEM PENYELENGGARAAN PEMBELAJARAN > Cuti Studi Sementara, Hal. 78-79).\n\n2. Sanksi jika mahasiswa melakukan cuti tanpa izin selama 2 semester berturut-turut adalah mahasiswa tersebut dinyatakan mengundurkan diri dan status mahasiswanya hilang atau gugur (BAB VII: SISTEM PENYELENGGARAAN PEMBELAJARAN > Cuti Studi Sementara, Hal. 79).",
+          "coverage": 1.0,
+          "forbidden_hits": []
+        },
+        "Baseline": {
+          "latency": 1.625,
+          "chunks": [
+            {
+              "breadcrumb": "-",
+              "text": "iswa membayar UKP 50% dan bebas UKV. Masa cuti resmi tidak dihitung masa studi.\n4. Mahasiswa cuti tanpa izin: Wajib bayar UKP 100%, masa cuti dihitung masa studi, dan jatah SKS setelah aktif maksimal 12 SKS.\n5. Cuti tanpa izin selama 2 semester berturut-turut dinyatakan mengundurkan diri dan status mahasiswanya hilang/gugur.\n\n### Penundaan Pembayaran Keuangan (Hal. 79):\n- Mahasiswa yang kesulitan biaya mengajukan Surat Permohonan Penundaan DPP, UKP, dan UKV kepada Ketua STIKOM Yos Sudarso melalu"
+            },
+            {
+              "breadcrumb": "-",
+              "text": "sesuai jatah SKS berdasarkan IPS lalu, bimbingan dengan dosen PA, validasi ketua prodi dan BAAK.\n4. Perubahan/Pembatalan KRS: Dilakukan melalui SIA dalam rentang waktu kalender akademik dengan persetujuan Dosen PA.\n\n### Cuti Studi Sementara (Hal. 78-79):\n1. Mengajukan surat permohonan diketahui orang tua selambat-lambatnya bersamaan jadwal KRS.\n2. Maksimal cuti 2 kali, dengan akumulasi paling lama 4 semester (2 tahun).\n3. Selama cuti resmi, mahasiswa membayar UKP 50% dan bebas UKV. Masa cuti res"
+            }
+          ],
+          "answer": "Berdasarkan Buku Pedoman Pendidikan 2025, berikut adalah jawaban atas pertanyaan Anda:\n\n1. Batas maksimal cuti studi sementara adalah sebanyak 2 kali, dengan akumulasi durasi paling lama 4 semester atau 2 tahun (Bab Cuti Studi Sementara, Hal. 78-79).\n\n2. Sanksi bagi mahasiswa yang melakukan cuti tanpa izin selama 2 semester berturut-turut adalah dinyatakan mengundurkan diri dan status mahasiswanya dinyatakan hilang atau gugur (Bab Cuti Studi Sementara, poin 5, Hal. 79).\n\nMohon maaf, karena data akademik Anda tidak tersedia dalam sistem, saya tidak dapat memberikan informasi spesifik mengenai status cuti Anda saat ini. Jika Anda memerlukan bantuan lebih lanjut terkait administrasi cuti, silakan menghubungi bagian BAAK STIKOM Yos Sudarso.",
+          "coverage": 1.0,
+          "forbidden_hits": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "SKENARIO_4",
+    "query": "Apa syarat IPK dan ketentuan khusus untuk mendapatkan predikat kelulusan Dengan Pujian bagi mahasiswa S1?",
+    "expected_clause": "BAB III & V > Kriteria Predikat Kelulusan (Hal 39 & 53)",
+    "runs": [
+      {
+        "SF-RAG": {
+          "latency": 2.24,
+          "chunks": [
+            {
+              "breadcrumb": "BAB III: STANDAR PENDIDIKAN & PENILAIAN > Kriteria Predikat Kelulusan Mahasiswa (Hal. 39):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB III: STANDAR PENDIDIKAN & PENILAIAN > Kriteria Predikat Kelulusan Mahasiswa (Hal. 39):\n\n- IPK >= 2.50 : Lulus\n- IPK 2.76 - 3.00 : Memuaskan\n- IPK 3.01 - 3.50 : Sangat Memuaskan\n- IPK > 3.50 : Dengan Pujian (Cum Laude)\n- Syarat predikat \"Dengan Pujian\": Program S1 masa studi maksimum 4 tahun dan TIDAK ADA nilai C dan D; Program D3 masa studi maksimum 3 tahun dan TIDAK ADA nilai C dan D."
+            },
+            {
+              "breadcrumb": "BAB III: STANDAR PENDIDIKAN & PENILAIAN > Skala Penilaian Nilai Mutu (Hal. 38):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB III: STANDAR PENDIDIKAN & PENILAIAN > Skala Penilaian Nilai Mutu (Hal. 38):\n\n- Nilai >= 80 : Grade A (Predikat: Sangat Baik, Mutu: 4.0)\n- Nilai >= 75 s.d. < 80 : Grade AB (Predikat: Lebih dari Baik, Mutu: 3.5)\n- Nilai >= 70 s.d. < 75 : Grade B (Predikat: Baik, Mutu: 3.0)\n- Nilai >= 65 s.d. < 70 : Grade BC (Predikat: Lebih dari Cukup, Mutu: 2.5)\n- Nilai >= 60 s.d. < 65 : Grade C (Predikat: Cukup, Mutu: 2.0)\n- Nilai >= 55 s.d. < 60 : Grade CD (Predikat: Kurang dari Cukup, Mutu: 1.5)\n- Nilai >= 45 s.d. < 55 : Grade D (Predikat: Kurang, Mutu: 1.0)\n- Nilai < 45 : Grade E (Predikat: Gagal, Mutu: 0.0)"
+            }
+          ],
+          "answer": "Berdasarkan Pedoman Pendidikan STIKOM Yos Sudarso 2025, BAB III: STANDAR PENDIDIKAN & PENILAIAN, bagian Kriteria Predikat Kelulusan Mahasiswa (Hal. 39), berikut adalah syarat untuk mendapatkan predikat Dengan Pujian (Cum Laude) bagi mahasiswa program S1:\n\n1. Memiliki Indeks Prestasi Kumulatif (IPK) lebih dari 3.50.\n2. Masa studi maksimum adalah 4 tahun.\n3. Tidak memiliki nilai C dan nilai D dalam seluruh riwayat studi.\n\nMohon maaf, saat ini data akademik Anda tidak tersedia dalam sistem, sehingga saya tidak dapat melakukan pengecekan apakah Anda telah memenuhi kriteria tersebut. Jika Anda memerlukan informasi lebih lanjut mengenai status akademik Anda, silakan menghubungi bagian BAAK.",
+          "coverage": 1.0,
+          "forbidden_hits": []
+        },
+        "Baseline": {
+          "latency": 4.87,
+          "chunks": [
+            {
+              "breadcrumb": "-",
+              "text": "- IPK >= 2.50 : Lulus\n- IPK 2.76 - 3.00 : Memuaskan\n- IPK 3.01 - 3.50 : Sangat Memuaskan\n- IPK > 3.50 : Dengan Pujian (Cum Laude)\n- Syarat predikat \"Dengan Pujian\": Program S1 masa studi maksimum 4 tahun dan TIDAK ADA nilai C dan D; Program D3 masa studi maksimum 3 tahun dan TIDAK ADA nilai C dan D.\n\n## BAB IV: SISTEM EVALUASI, UJIAN, TUGAS AKHIR & SKRIPSI\n### Evaluasi & Ujian (Hal. 46-47):\n- Syarat UAS: Mengisi KRS di SIA dan divalidasi dosen PA, lunas administrasi keuangan, kehadiran minimal"
+            },
+            {
+              "breadcrumb": "-",
+              "text": "ster sejak SK Pembimbing diterbitkan. Jika 4 bulan pertama belum bimbingan/ujian proposal, bimbingan dihentikan sementara.\n- Tahapan skripsi: Seminar Proposal (2 pembimbing + 1 penguji) -> Seminar Hasil (dihadiri minimal 10 mahasiswa) -> Ujian Pendadaran / Komprehensif (3 penguji).\n- Syarat Pendadaran: Lulus semua MK tanpa nilai E, IPK >= 2.50, nilai D maksimal 4 SKS (maks 2 MK), MKWU dan Metopen min C, minimal 10 kali bimbingan, naskah publikasi jurnal nasional ber-ISSN minimal status submit."
+            }
+          ],
+          "answer": "Berdasarkan Buku Pedoman Pendidikan 2025 pada bagian Evaluasi & Ujian (Bab IV), berikut adalah syarat untuk mendapatkan predikat kelulusan Dengan Pujian (Cum Laude) bagi mahasiswa program S1:\n\n1. Syarat IPK: Mahasiswa harus memiliki Indeks Prestasi Kumulatif (IPK) lebih dari 3.50.\n2. Masa Studi: Mahasiswa harus menyelesaikan masa studi maksimal 4 tahun.\n3. Ketentuan Nilai: Mahasiswa tidak diperbolehkan memiliki nilai C maupun nilai D dalam seluruh mata kuliah yang ditempuh.\n\nMohon maaf, karena data akademik Anda tidak tersedia dalam sistem saat ini, saya tidak dapat melakukan pengecekan apakah Anda telah memenuhi kriteria tersebut. Jika Anda memerlukan informasi lebih lanjut mengenai status akademik Anda, silakan menghubungi bagian BAAK.",
+          "coverage": 1.0,
+          "forbidden_hits": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "SKENARIO_5",
+    "query": "Apa saja syarat akademik untuk dapat mengambil mata kuliah Skripsi pada program studi S1?",
+    "expected_clause": "BAB IV > B. TUGAS AKHIR DAN UJIAN AKHIR (Hal 48-49 & 87)",
+    "runs": [
+      {
+        "SF-RAG": {
+          "latency": 1.606,
+          "chunks": [
+            {
+              "breadcrumb": "BAB IV: SISTEM EVALUASI, UJIAN, TUGAS AKHIR & SKRIPSI > Syarat Skripsi S1 (Hal. 48-51, 87-88):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB IV: SISTEM EVALUASI, UJIAN, TUGAS AKHIR & SKRIPSI > Syarat Skripsi S1 (Hal. 48-51, 87-88):\n\n- Mahasiswa aktif semester berjalan.\n- Telah menyelesaikan minimal 110 SKS dengan IPK >= 2.20.\n- Nilai D maksimal 8 SKS dari 110 SKS.\n- Sedang menempuh atau telah lulus mata kuliah Metodologi Penelitian dan PPL/Kerja Praktek.\n- Telah menghadiri seminar hasil mahasiswa lain minimal 5 kali.\n- Waktu pelaksanaan bimbingan skripsi maksimum 2 semester sejak SK Pembimbing diterbitkan. Jika 4 bulan pertama belum bimbingan/ujian proposal, bimbingan dihentikan sementara.\n- Tahapan skripsi: Seminar Proposal (2 pembimbing + 1 penguji) -> Seminar Hasil (dihadiri minimal 10 mahasiswa) -> Ujian Pendadaran / Komprehensif (3 penguji)."
+            },
+            {
+              "breadcrumb": "BAB IV: SISTEM EVALUASI, UJIAN, TUGAS AKHIR & SKRIPSI > Syarat Skripsi S1 (Hal. 48-51, 87-88):",
+              "text": "Dokumen: Pedoman Pendidikan STIKOM Yos Sudarso 2025\nHierarki: BAB IV: SISTEM EVALUASI, UJIAN, TUGAS AKHIR & SKRIPSI > Syarat Skripsi S1 (Hal. 48-51, 87-88):\n\n- Syarat Pendadaran: Lulus semua MK tanpa nilai E, IPK >= 2.50, nilai D maksimal 4 SKS (maks 2 MK), MKWU dan Metopen min C, minimal 10 kali bimbingan, naskah publikasi jurnal nasional ber-ISSN minimal status submit."
+            }
+          ],
+          "answer": "JAWABAN:\n\nBerdasarkan Pedoman Pendidikan STIKOM Yos Sudarso 2025, BAB IV: SISTEM EVALUASI, UJIAN, TUGAS AKHIR & SKRIPSI (Hal. 48-51, 87-88), berikut adalah syarat akademik untuk dapat mengambil mata kuliah Skripsi pada program studi S1:\n\n1. Mahasiswa harus berstatus aktif pada semester berjalan.\n2. Telah menyelesaikan minimal 110 SKS dengan IPK minimal 2.20.\n3. Memiliki nilai D maksimal 8 SKS dari total 110 SKS yang telah ditempuh.\n4. Sedang menempuh atau telah dinyatakan lulus mata kuliah Metodologi Penelitian dan PPL/Kerja Praktek.\n5. Telah menghadiri seminar hasil mahasiswa lain minimal sebanyak 5 kali.\n\nMohon maaf, karena data akademik Anda tidak tersedia dalam sistem kami, saya tidak dapat memastikan apakah Anda sudah memenuhi syarat-syarat tersebut. Silakan periksa kembali transkrip nilai Anda atau hubungi bagian BAAK untuk verifikasi data lebih lanjut.",
+          "coverage": 1.0,
+          "forbidden_hits": []
+        },
+        "Baseline": {
+          "latency": 1.683,
+          "chunks": [
+            {
+              "breadcrumb": "-",
+              "text": "r yang nilainya kurang untuk kelulusan atau mempunyai nilai E.\n\n### Syarat Skripsi S1 (Hal. 48-51, 87-88):\n- Mahasiswa aktif semester berjalan.\n- Telah menyelesaikan minimal 110 SKS dengan IPK >= 2.20.\n- Nilai D maksimal 8 SKS dari 110 SKS.\n- Sedang menempuh atau telah lulus mata kuliah Metodologi Penelitian dan PPL/Kerja Praktek.\n- Telah menghadiri seminar hasil mahasiswa lain minimal 5 kali.\n- Waktu pelaksanaan bimbingan skripsi maksimum 2 semester sejak SK Pembimbing diterbitkan. Jika 4 bulan"
+            },
+            {
+              "breadcrumb": "-",
+              "text": "ster sejak SK Pembimbing diterbitkan. Jika 4 bulan pertama belum bimbingan/ujian proposal, bimbingan dihentikan sementara.\n- Tahapan skripsi: Seminar Proposal (2 pembimbing + 1 penguji) -> Seminar Hasil (dihadiri minimal 10 mahasiswa) -> Ujian Pendadaran / Komprehensif (3 penguji).\n- Syarat Pendadaran: Lulus semua MK tanpa nilai E, IPK >= 2.50, nilai D maksimal 4 SKS (maks 2 MK), MKWU dan Metopen min C, minimal 10 kali bimbingan, naskah publikasi jurnal nasional ber-ISSN minimal status submit."
+            }
+          ],
+          "answer": "Berdasarkan Buku Pedoman Pendidikan 2025 (Halaman 48-51, 87-88), berikut adalah syarat akademik yang harus dipenuhi untuk dapat mengambil mata kuliah Skripsi pada program studi S1:\n\n1. Mahasiswa berstatus aktif pada semester berjalan.\n2. Telah menyelesaikan beban studi minimal 110 SKS.\n3. Memiliki Indeks Prestasi Kumulatif (IPK) minimal 2.20.\n4. Memiliki nilai D maksimal sebanyak 8 SKS dari total 110 SKS yang telah ditempuh.\n5. Sedang menempuh atau telah dinyatakan lulus mata kuliah Metodologi Penelitian dan PPL/Kerja Praktek.\n6. Telah menghadiri seminar hasil mahasiswa lain minimal sebanyak 5 kali.\n\nMohon maaf, karena data akademik Anda tidak tersedia dalam sistem saat ini, saya tidak dapat melakukan verifikasi apakah Anda sudah memenuhi syarat-syarat tersebut. Silakan periksa kembali transkrip nilai Anda atau hubungi BAAK untuk informasi lebih lanjut mengenai status pemenuhan syarat skripsi Anda.",
+          "coverage": 1.0,
+          "forbidden_hits": []
+        }
+      }
+    ]
+  }
+]
